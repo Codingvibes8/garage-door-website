@@ -97,7 +97,7 @@ export function ContactFormSection() {
                       value={formData.name}
                       onChange={handleChange}
                       required
-                      className="w-full rounded-md border-gray-300 shadow-sm focus:border-[--brand-orange] focus:ring-[--brand-orange] text-foreground"
+                      className="w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm focus:border-[--brand-orange] focus:ring-2 focus:ring-[--brand-orange] focus:outline-none text-foreground"
                     />
                   </div>
 
@@ -115,7 +115,7 @@ export function ContactFormSection() {
                       value={formData.email}
                       onChange={handleChange}
                       required
-                      className="w-full rounded-md border-gray-300 shadow-sm focus:border-[--brand-orange] focus:ring-[--brand-orange] text-foreground"
+                      className="w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm focus:border-[--brand-orange] focus:ring-2 focus:ring-[--brand-orange] focus:outline-none text-foreground"
                     />
                   </div>
 
@@ -131,7 +131,7 @@ export function ContactFormSection() {
                       name="service"
                       value={formData.service}
                       onChange={handleChange}
-                      className="w-full rounded-md border-gray-300 shadow-sm focus:border-[--brand-orange] focus:ring-[--brand-orange] text-foreground"
+                      className="w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm focus:border-[--brand-orange] focus:ring-2 focus:ring-[--brand-orange] focus:outline-none text-foreground bg-white"
                     >
                       <option>Repair &amp; Maintenance</option>
                       <option>New Door Installation</option>
@@ -153,7 +153,8 @@ export function ContactFormSection() {
                       value={formData.message}
                       onChange={handleChange}
                       rows={4}
-                      className="w-full rounded-md border-gray-300 shadow-sm focus:border-[--brand-orange] focus:ring-[--brand-orange] text-foreground"
+                      placeholder="Tell us about your garage door needs..."
+                      className="w-full rounded-md border border-gray-300 px-4 py-3 shadow-sm focus:border-[--brand-orange] focus:ring-2 focus:ring-[--brand-orange] focus:outline-none text-foreground resize-none"
                     />
                   </div>
 
